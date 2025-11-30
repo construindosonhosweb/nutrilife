@@ -4,22 +4,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Nutrilife | Perfumes e Remédios Naturais</title>
-   <link rel="stylesheet" href="styles.css">
-  <style>
-   
 
-
-  
-
-
-
- 
-    
-  </style>
+  <!-- LINK PARA O ARQUIVO CSS EXTERNO -->
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
+  <!-- ============================
+       CABEÇALHO + MENU DE NAVEGAÇÃO
+       ============================ -->
   <header>
+
+    <!-- MENU NAVBAR -->
     <nav id="menuNav">
+      <!-- Cada link leva para uma página da loja -->
       <a href="index.html">Home</a>
       <a href="masculinos.html">Masculinos</a>
       <a href="femininos.html">Femininos</a>
@@ -29,137 +27,186 @@
       <a href="nacionais.html">Nacionais</a>
       <a href="sobre.html">Sobre/Contato</a>
     </nav>
-  </div>
-  </header>
+
+    <!-- LOGO + TÍTULO -->
     <img src="img/perfume_PNG10271.png" alt="Logo Nutrilife">
     <h1>Nutrilife</h1>
     <p>Saúde, beleza e bem-estar em um só lugar 🌿</p>
 
+    <!-- BOTÕES DAS REDES SOCIAIS -->
     <div class="social-buttons">
+      <!-- Cada botão abre em nova aba -->
       <button onclick="window.open('https://instagram.com','_blank')">Instagram</button>
       <button onclick="window.open('https://facebook.com','_blank')">Facebook</button>
       <button onclick="window.open('https://wa.me/','_blank')">WhatsApp</button>
     </div>
-  </header>
 
-  <!-- Banner rotativo -->
+  </header>
+  <!-- FIM DO HEADER -->
+
+  <!-- ============================
+       BANNER ROTATIVO
+       ============================ -->
   <div class="banner">
+    <!-- O JavaScript vai alternar a classe "active" -->
     <img src="img/Nutri.png" class="active" alt="Banner 1">
     <img src="img/Banner para YouTube - Discover the Essence  of Hello Perfume.png" alt="Banner 2">
     <img src="img/Black and White Modern Photo Fashion Presentation.png" alt="Banner 3">
   </div>
 
+  <!-- ============================
+       SESSÃO: PERFUMES EM DESTAQUE
+       ============================ -->
   <h2 class="section-title">Perfumes em Destaque</h2>
+
   <section class="products">
+
+    <!-- CARD DO PRODUTO 1 -->
     <div class="product-card">
-      <img src="Imagem do WhatsApp de 2025-10-22 à(s) 21.32.02_9e175b07.jpg" alt="Perfume A">
+      <img src="img/perfume1.jpg" alt="Perfume A">
       <h3>Perfume A</h3>
       <p>R$120,00</p>
       <button>Ver Detalhes</button>
     </div>
 
+    <!-- CARD DO PRODUTO 2 -->
     <div class="product-card">
-      <img src="Imagem do WhatsApp de 2025-10-22 à(s) 21.32.03_021b377f.jpg" alt="Perfume B">
+      <img src="img/perfume2.jpg" alt="Perfume B">
       <h3>Perfume B</h3>
       <p>R$150,00</p>
       <button>Ver Detalhes</button>
     </div>
 
+    <!-- CARD DO PRODUTO 3 -->
     <div class="product-card">
-      <img src="Imagem do WhatsApp de 2025-10-22 à(s) 21.32.01_aed58945.jpg" alt="Perfume C">
+      <img src="img/perfume3.jpg" alt="Perfume C">
       <h3>Perfume C</h3>
       <p>R$99,90</p>
       <button>Ver Detalhes</button>
     </div>
+
   </section>
 
+  <!-- ============================
+       SESSÃO: REMÉDIOS NATURAIS
+       ============================ -->
   <h2 class="section-title">Remédios Naturais</h2>
+
   <section class="products">
+
     <div class="product-card">
-      <img src="Imagem do WhatsApp de 2025-10-22 à(s) 21.32.02_9e175b07.jpg" alt="Remédio A">
+      <img src="img/remedio1.jpg" alt="Remédio A">
       <h3>Remédio A</h3>
       <p>R$59,90</p>
       <button>Ver Detalhes</button>
     </div>
 
     <div class="product-card">
-      <img src="Imagem do WhatsApp de 2025-10-22 à(s) 21.32.03_021b377f.jpg" alt="Remédio B">
+      <img src="img/remedio2.jpg" alt="Remédio B">
       <h3>Remédio B</h3>
       <p>R$89,90</p>
       <button>Ver Detalhes</button>
     </div>
 
     <div class="product-card">
-      <img src="Imagem do WhatsApp de 2025-10-22 à(s) 21.32.01_aed58945.jpg" alt="Remédio C">
+      <img src="img/remedio3.jpg" alt="Remédio C">
       <h3>Remédio C</h3>
       <p>R$39,90</p>
       <button>Ver Detalhes</button>
     </div>
-  </section>
-  <!-- Catálogo de Produtos -->
-<section class="section">
-  <div class="catalog">
-    <div class="catalog-item">
-      <img src="img/amber-rouge.webp" alt="amber-rouge">
-      <p class="nome">Amber Rouge 80ml</p>
-      <p class="price">R$450,00</p>
-      <a href="###" class="btn">Ver Detalhes</a>
-    </div>
-    <div class="catalog-item">
-      <img src="img/fakhar-extrait.jpg" alt="fakhar-extrait">
-      <p class="nome">Fakhar Extrait 100ml</p>
-      <p class="price">R$219,00</p>
-      <a href="##" class="btn">Ver Detalhes</a>
-    </div>
-    <div class="catalog-item">
-      <img src="img/bareeq-al-dhabab.webp" alt="bareeq-al-dhabab">
-      <p class="nome">Bareeq Al Dhabab 100ml</p>
-      <p class="price">R$159,00</p>
-      <a href="##" class="btn">Ver Detalhes</a>
-    </div>
-    <div class="catalog-item">
-      <img src="img/sultan-al-lail.webp" alt="sultan-al-lail">
-      <p class="nome">Sultan Al Lail 100ml</p>
-      <p class="price">R$189,00</p>
-      <a href="###" class="btn">Ver Detalhes</a>
-    </div>
-    <div class="catalog-item">
-      <img src="img/Club-de-Nuit-Sillage.webp" alt="Club-de-Nuit-Sillage">
-      <p class="nome">Club de Nuit Sillage 105ml</p>
-      <p class="price">R$349,00</p>
-      <a href="##" class="btn">Ver Detalhes</a>
-    </div>
-    <div class="catalog-item">
-      <img src="img/kamrah-edp.webp" alt="kamrah-edp">
-      <p class="nome">Kamrah EDP 100ml</p>
-      <p class="price">R$219,00</p>
-      <a href="####" class="btn">Ver Detalhes</a>
-    </div>
 
+  </section>
+
+  <!-- ============================
+       CATÁLOGO MAIOR (ÁRABES/TURCOS)
+       ============================ -->
+  <section class="section catálogo">
+
+    <div class="catalog">
+
+      <!-- CARD DO PRODUTO ÁRABE 1 -->
+      <div class="catalog-item">
+        <img src="img/amber-rouge.webp" alt="amber-rouge">
+        <p class="nome">Amber Rouge 80ml</p>
+        <p class="price">R$450,00</p>
+        <a href="#" class="btn">Ver Detalhes</a>
+      </div>
+
+      <div class="catalog-item">
+        <img src="img/fakhar-extrait.jpg" alt="fakhar-extrait">
+        <p class="nome">Fakhar Extrait 100ml</p>
+        <p class="price">R$219,00</p>
+        <a href="#" class="btn">Ver Detalhes</a>
+      </div>
+
+      <div class="catalog-item">
+        <img src="img/bareeq-al-dhabab.webp" alt="bareeq-al-dhabab">
+        <p class="nome">Bareeq Al Dhabab 100ml</p>
+        <p class="price">R$159,00</p>
+        <a href="#" class="btn">Ver Detalhes</a>
+      </div>
+
+      <div class="catalog-item">
+        <img src="img/sultan-al-lail.webp" alt="sultan-al-lail">
+        <p class="nome">Sultan Al Lail 100ml</p>
+        <p class="price">R$189,00</p>
+        <a href="#" class="btn">Ver Detalhes</a>
+      </div>
+
+      <div class="catalog-item">
+        <img src="img/Club-de-Nuit-Sillage.webp" alt="Club-de-Nuit-Sillage">
+        <p class="nome">Club de Nuit Sillage 105ml</p>
+        <p class="price">R$349,00</p>
+        <a href="#" class="btn">Ver Detalhes</a>
+      </div>
+
+      <div class="catalog-item">
+        <img src="img/kamrah-edp.webp" alt="kamrah-edp">
+        <p class="nome">Kamrah EDP 100ml</p>
+        <p class="price">R$219,00</p>
+        <a href="#" class="btn">Ver Detalhes</a>
+      </div>
+
+    </div> 
+    <!-- FIM DO .catalog -->
+
+  </section>
+
+  <!-- ============================
+       FOOTER
+       ============================ -->
   <footer>
     <p>© 2025 Nutrilife - Todos os direitos reservados</p>
   </footer>
 
+  <!-- ============================
+       JAVASCRIPT
+       ============================ -->
   <script>
-    // Script do banner rotativo
+    // =======================
+    // SCRIPT DO SLIDE/BANNER
+    // =======================
     const slides = document.querySelectorAll('.banner img');
     let index = 0;
 
     function trocarSlide() {
-      slides[index].classList.remove('active');
-      index = (index + 1) % slides.length;
-      slides[index].classList.add('active');
+      slides[index].classList.remove('active');  // remove imagem atual
+      index = (index + 1) % slides.length;       // passa para a próxima
+      slides[index].classList.add('active');     // ativa a imagem nova
     }
 
-    setInterval(trocarSlide, 4000); // Troca a cada 4 segundos
+    setInterval(trocarSlide, 4000); // troca a cada 4s
 
-    // Ação nos botões "Ver Detalhes"
+    // =======================
+    // BOTÕES "VER DETALHES"
+    // =======================
     document.querySelectorAll('.product-card button').forEach(btn => {
       btn.addEventListener('click', () => {
         alert('Mais informações disponíveis em breve!');
       });
     });
   </script>
+
 </body>
 </html>
 
